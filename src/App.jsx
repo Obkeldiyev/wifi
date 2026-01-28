@@ -96,7 +96,7 @@ function App() {
       </section>
 
       {/* MARQUEE */}
-      <div style={{ background: 'white', color: 'black', padding: '20px 0', overflow: 'hidden', whiteSpace: 'nowrap' }}>
+      <div style={{ background: 'white', color: 'white', padding: '20px 0', overflow: 'hidden', whiteSpace: 'nowrap' }}>
         <motion.div
           animate={{ x: "-50%" }}
           transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
